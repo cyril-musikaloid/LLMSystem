@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "../kamtarLED"
+		},
+		{
+			"name": "LedController",
+			"path": "../kamtarLED/LedController"
+		},
+		{
+			"name": "SettingatorTest",
+			"path": "../PlatformIO/Projects/SettingatorTest"
+		},
+		{
+			"name": "STR",
+			"path": "../PlatformIO/Projects/SettingatorTest/STR"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"cstddef": "cpp",
+			"*.rh": "cpp"
+		}
+	}
+}
