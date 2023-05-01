@@ -59,7 +59,7 @@ def parse(response:str):
         elif (line.find("P:") == 0):
              line = line[2:line.__len__()]
              
-             if (out.__len__() > 0):
+             if (type(out) is bytes and out.__len__() > 0):
                 line.replace("$return", out)
              
              print(line)
